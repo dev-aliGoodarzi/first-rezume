@@ -1,0 +1,77 @@
+@font-face {
+  font-family: b-naz;
+  src: url(../fonts/BNazanin.woff);
+}
+#containor {
+  text-align: center;
+  // main confing
+  position: relative;
+  background: {
+    image: url("../images/404.png");
+    repeat: no-repeat;
+    position: center;
+  }
+  width: 100%;
+  height: 95vh;
+  font : {
+    family: b-naz;
+  }
+  display: flex;
+  flex : {
+    direction: column;
+  }
+  justify-content: center;
+  align-items: center;
+
+  //   end of main
+  //   contents
+  h2 {
+    font : {
+      family: arial;
+      size: 80pt;
+      weight: 900;
+    }
+  }
+  h4 {
+    font : {
+      size: 30pt;
+    }
+  }
+  p {
+    font: {
+      size: 20pt;
+    }
+  }
+  //   bg Two
+  .background-two {
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+    height: 100vh;
+    background: {
+      image: url("../images/404-2.png");
+    }
+  }
+  //tag a
+  a {
+    text : {
+      decoration: none;
+    }
+    color: #fff;
+    width: max-content;
+    height: max-content;
+    padding: 0.3rem;
+    border-radius: 1rem;
+  }
+  #a-1 {
+    background: {
+      color: #5e3d7e;
+    }
+  }
+  #a-2 {
+    background: {
+      color: rgb(16, 172, 16);
+    }
+    margin-top: 1rem;
+  }
+}

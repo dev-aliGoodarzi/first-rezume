@@ -1,0 +1,13 @@
+main {
+  p {
+    padding: {
+      left: 1rem;
+      top: 1vh;
+    }
+  }
+  p:first-child {
+    padding: {
+      top: 7vh;
+    }
+  }
+}

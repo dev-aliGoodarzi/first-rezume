@@ -1,0 +1,1184 @@
+@media (max-width: 450px) {
+  html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+  }
+  html body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .left {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  html body main .left #id {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    flex-justify-content: center;
+    flex-align-items: center;
+    line-height: 4vh;
+  }
+  html body main .left .mid #my-btn {
+    display: none;
+    visibility: hidden;
+  }
+  html body main .left .cv-link {
+    font-size: 5vw;
+  }
+  html body main #main2 {
+    width: 95vw;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    right: 0;
+    left: 0;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2vh;
+  }
+  html body main #main2 #img-and-text-containor {
+    width: 95vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main #main2 #img-and-text-containor #text-context-containor {
+    position: relative;
+  }
+  html body main #main2 #img-and-text-containor #text-context-containor h3 {
+    font-size: 2.5vh;
+  }
+  html body main #main2 #img-and-text-containor #text-context-containor p {
+    font-size: 1.9vh;
+  }
+  html body main #main2 #img-and-text-containor #text-context-containor #explore-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40vw;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    font-size: 1.7vh;
+  }
+  html body main #main2 #img-and-text-containor #my-img-containor {
+    width: 60vw;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  html body main #main2 #img-and-text-containor #my-img-containor #my-img {
+    position: relative;
+    bottom: 0;
+    background-image: url("/images/mid/me.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+  }
+  html body main #main2 #my-status {
+    width: 90%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 1.6vh;
+  }
+  html body main #main2 #services-logo {
+    font-size: 2.5vh;
+  }
+  html body main #main2 #services-containor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main #main2 #services-containor #row1 {
+    width: 95vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main #main2 #services-containor #row1 .flex-items {
+    width: 98vw;
+    position: relative;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-top: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body main #main2 #services-containor #row1 .flex-items h4 {
+    font-size: 2vh;
+  }
+  html body main #main2 #services-containor #row1 .flex-items p {
+    font-size: 2vh;
+    margin: 2vh;
+  }
+  html body main #main2 #services-containor #row1 .flex-items .order-btn {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 1.5vh;
+    position: relative;
+    top: 0;
+  }
+  html body main #main2 #services-containor #row2 {
+    width: 95vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main #main2 #services-containor #row2 .flex-items {
+    width: 98vw;
+    position: relative;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-top: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body main #main2 #services-containor #row2 .flex-items h4 {
+    font-size: 2vh;
+  }
+  html body main #main2 #services-containor #row2 .flex-items p {
+    font-size: 2vh;
+    margin: 2vh;
+  }
+  html body main #main2 #services-containor #row2 .flex-items .order-btn {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 1.5vh;
+    position: relative;
+    top: 0;
+  }
+  html body main #main2 .products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main #main2 .products .product-row-one,
+  html body main #main2 .products .product-row-two,
+  html body main #main2 .products .product-row-three {
+    width: 95vw;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main #main2 .products .product-row-one .product-containor,
+  html body main #main2 .products .product-row-two .product-containor,
+  html body main #main2 .products .product-row-three .product-containor {
+    width: 100%;
+    height: 50vw;
+    margin-top: 3vh;
+  }
+  html body main #main2 .products .product-row-one .product-containor img,
+  html body main #main2 .products .product-row-two .product-containor img,
+  html body main #main2 .products .product-row-three .product-containor img {
+    width: 100%;
+    height: 80%;
+  }
+  html body main #main2 .products .product-row-one .product-containor h4,
+  html body main #main2 .products .product-row-one .product-containor a,
+  html body main #main2 .products .product-row-two .product-containor h4,
+  html body main #main2 .products .product-row-two .product-containor a,
+  html body main #main2 .products .product-row-three .product-containor h4,
+  html body main #main2 .products .product-row-three .product-containor a {
+    width: 100%;
+    height: 10%;
+    font-size: 5vw;
+    text-align: center;
+  }
+  html body main #main2 .products .product-row-one .product-containor a,
+  html body main #main2 .products .product-row-two .product-containor a,
+  html body main #main2 .products .product-row-three .product-containor a {
+    width: 100%;
+    font-size: 4vw;
+  }
+  html body main .hide {
+    left: 0;
+  }
+  html body main .right {
+    display: none;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    position: absolute;
+    right: 5vw;
+  }
+  html body main .right #hamburger-menu {
+    display: none;
+    right: 5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  html body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main #main1 {
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  html body main #main1 #my-btn {
+    display: none;
+    visibility: hidden;
+  }
+  html body main .hide {
+    left: 0;
+  }
+  html body main .mid {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2vh;
+  }
+  html body main .mid #img-and-text-containor {
+    width: 90vw;
+  }
+  html body main .mid #img-and-text-containor #text-context-containor {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    position: relative;
+  }
+  html body main .mid #img-and-text-containor #text-context-containor h3 {
+    font-size: 1.5vh;
+  }
+  html body main .mid #img-and-text-containor #text-context-containor p {
+    font-size: 2vh;
+  }
+  html body main .mid #img-and-text-containor #text-context-containor #explore-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 35vw;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    font-size: 2.5vh;
+  }
+  html body main .mid #img-and-text-containor #my-img-containor {
+    width: 65vw;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  html body main .mid #img-and-text-containor #my-img-containor #my-img {
+    position: relative;
+    bottom: 0;
+    background-image: url("/images/mid/me.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+  }
+  html body main .mid #my-status {
+    width: 90vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  html body main .mid #services-logo {
+    font-size: 0.2vh;
+  }
+  html body main .mid #services-containor {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid #services-containor #row1 {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid #services-containor #row1 .flex-items {
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-top: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body main .mid #services-containor #row1 .flex-items p {
+    font-size: 2.3vh;
+    margin: 2vh;
+  }
+  html body main .mid #services-containor #row1 .flex-items .order-btn {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 2vh;
+    position: relative;
+    bottom: 1vh;
+  }
+  html body main .mid #services-containor #row2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  html body main .mid #services-containor #row2 .flex-items {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: 25vh;
+    margin-top: 2vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body main .mid #services-containor #row2 .flex-items p {
+    margin: 2vh;
+  }
+  html body main .mid #services-containor #row2 .flex-items .order-btn {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 2vh;
+    position: relative;
+    top: 1vh;
+  }
+  html body main .mid .products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid .products .product-row-one,
+  html body main .mid .products .product-row-two,
+  html body main .mid .products .product-row-three {
+    width: 95vw;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid .products .product-row-one .product-containor,
+  html body main .mid .products .product-row-two .product-containor,
+  html body main .mid .products .product-row-three .product-containor {
+    width: 100%;
+    height: 50vw;
+    margin-top: 3vh;
+  }
+  html body main .mid .products .product-row-one .product-containor img,
+  html body main .mid .products .product-row-two .product-containor img,
+  html body main .mid .products .product-row-three .product-containor img {
+    width: 100%;
+    height: 80%;
+  }
+  html body main .mid .products .product-row-one .product-containor h4,
+  html body main .mid .products .product-row-one .product-containor a,
+  html body main .mid .products .product-row-two .product-containor h4,
+  html body main .mid .products .product-row-two .product-containor a,
+  html body main .mid .products .product-row-three .product-containor h4,
+  html body main .mid .products .product-row-three .product-containor a {
+    width: 100%;
+    height: 10%;
+    font-size: 5vw;
+    text-align: center;
+  }
+  html body main .mid .products .product-row-one .product-containor a,
+  html body main .mid .products .product-row-two .product-containor a,
+  html body main .mid .products .product-row-three .product-containor a {
+    width: 100%;
+    font-size: 4vw;
+  }
+  html body main .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: transparent;
+    width: 3vh;
+    height: 3vh;
+    position: fixed;
+    top: 5vh;
+    right: 10vw;
+  }
+  html body main .right flex {
+    direction: row;
+  }
+  html body main .right #hamburger-menu {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+  html body main .right .content {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    right: 0;
+    top: 5vh;
+    height: 7vh;
+    background-color: red;
+    font-size: 1.2vh;
+  }
+  html body main .right .content a {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 960px) {
+  html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 3.2 vh;
+  }
+  html body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main #main1 {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding-bottom: 2vh;
+  }
+  html body main #main1 #my-btn {
+    display: none;
+    visibility: hidden;
+  }
+  html body main #main1 .hide {
+    left: 0;
+  }
+  html body main #main1 #cv a {
+    font-size: 3vh;
+  }
+  html body main .mid {
+    margin: 0;
+    padding: 0;
+    width: 98vw;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid #img-and-text-containor #text-context-containor {
+    position: relative;
+  }
+  html body main .mid #img-and-text-containor #text-context-containor h3 {
+    font-size: 3.5vh;
+  }
+  html body main .mid #img-and-text-containor #text-context-containor p {
+    font-size: 2vh;
+  }
+  html body main .mid #img-and-text-containor #my-img-containor {
+    width: 60vw;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  html body main .mid #img-and-text-containor #my-img-containor #my-img {
+    position: relative;
+    bottom: 0;
+    background-image: url("/images/mid/me.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+  }
+  html body main .mid #my-status {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 2vw;
+    font-size: 2.5vh;
+  }
+  html body main .mid #services-logo {
+    font-size: 4vh;
+    padding-bottom: 2vh;
+  }
+  html body main .mid #services-containor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid #services-containor #row1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid #services-containor #row1 .flex-items {
+    width: 95vw;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-top: 1vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body main .mid #services-containor #row1 .flex-items p {
+    font-size: 2.3vh;
+    margin: 2vh;
+  }
+  html body main .mid #services-containor #row1 .flex-items .order-btn {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 2vh;
+    position: relative;
+    bottom: 1vh;
+  }
+  html body main .mid #services-containor #row2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid #services-containor #row2 .flex-items {
+    width: 95vw;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-top: 1vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body main .mid #services-containor #row2 .flex-items p {
+    font-size: 2.3vh;
+    margin: 2vh;
+  }
+  html body main .mid #services-containor #row2 .flex-items .order-btn {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 2vh;
+    position: relative;
+    bottom: 1vh;
+  }
+  html body main .mid .products {
+    width: 100vw;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid .products .product-row-one,
+  html body main .mid .products .product-row-two,
+  html body main .mid .products .product-row-three {
+    width: 90vw;
+    height: 60vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid .products .product-row-one .product-containor,
+  html body main .mid .products .product-row-two .product-containor,
+  html body main .mid .products .product-row-three .product-containor {
+    width: 28vw;
+    height: 40vw;
+    margin-top: 1vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body main .mid .products .product-row-one .product-containor img,
+  html body main .mid .products .product-row-two .product-containor img,
+  html body main .mid .products .product-row-three .product-containor img {
+    width: 100%;
+    height: 60%;
+  }
+  html body main .mid .products .product-row-one .product-containor h4,
+  html body main .mid .products .product-row-one .product-containor a,
+  html body main .mid .products .product-row-two .product-containor h4,
+  html body main .mid .products .product-row-two .product-containor a,
+  html body main .mid .products .product-row-three .product-containor h4,
+  html body main .mid .products .product-row-three .product-containor a {
+    width: 100%;
+    font-size: 2.1vw;
+    text-align: center;
+  }
+  html body main .mid .products .product-row-one .product-containor a,
+  html body main .mid .products .product-row-two .product-containor a,
+  html body main .mid .products .product-row-three .product-containor a {
+    width: 100%;
+    font-size: 2vw;
+  }
+  html body .right {
+    width: 5vh;
+    height: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: fixed;
+    top: 5vh;
+    right: 5vh;
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  html body .right #hamburger-menu {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+  html body .right .content {
+    position: absolute;
+    z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+    right: -5vw;
+    top: 5vh;
+    height: 7vh;
+    background-image: -webkit-gradient(linear, right top, left top, from(magenta), to(blueviolet));
+    background-image: linear-gradient(to left, magenta, blueviolet);
+    font-size: 1.2vh;
+  }
+  html body .right .content div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  html body .right .content a {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 1367px) {
+  body main #main1 {
+    font-size: 2.2vh;
+  }
+  body main #main1 #profile {
+    padding: 0;
+  }
+  body main #main1 #profile h3 {
+    padding-top: 0.7vh;
+  }
+  body main #main1 #profile p {
+    padding: 0;
+    line-height: 3vh;
+  }
+  body main #main1 #id {
+    padding: 0;
+    line-height: 3.4vh;
+  }
+  body main #main1 #languages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    height: 6vh;
+  }
+  body main #main1 #work {
+    margin: 0;
+  }
+  body main #main1 #work #work-item {
+    margin: 0;
+  }
+  body main #main1 #advantage {
+    margin: 0;
+  }
+  body main #main1 #advantage #sass {
+    margin: 0;
+  }
+  body main #main1 #advantage #sass i {
+    width: 4vh;
+    height: 4vh;
+  }
+  body main #main1 #advantage #git {
+    margin: 0;
+  }
+  body main #main1 #advantage #git i {
+    width: 4vh;
+    height: 4vh;
+  }
+  body main #main1 #advantage #cv {
+    margin-top: 1vh;
+  }
+  body main #main1 #advantage #cv a {
+    text-decoration: none;
+  }
+  body .mid {
+    width: 98vw;
+  }
+  body .mid #services-containor .flex-items {
+    padding: 4vh;
+  }
+  body .mid #services-containor .flex-items h4 {
+    font-size: 3vh;
+  }
+  body .mid #services-containor .flex-items p {
+    font-size: 2.2vh;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

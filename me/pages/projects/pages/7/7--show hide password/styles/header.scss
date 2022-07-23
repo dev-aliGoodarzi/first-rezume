@@ -1,0 +1,40 @@
+header {
+  position: relative;
+  #top-nav {
+    position: fixed;
+    top: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex: {
+      direction: row;
+    }
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 90%;
+    border: 2px solid black;
+    height: 10vh;
+    margin: {
+      left: 5%;
+    }
+    background: {
+      image: linear-gradient(-45deg, blue, magenta, blueviolet 30%);
+    }
+    a {
+      text : {
+        decoration: none;
+      }
+      color: #fff;
+      font : {
+        size: 6vh;
+      }
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+
+    // end of a tag
+    // start of header
+  }
+}

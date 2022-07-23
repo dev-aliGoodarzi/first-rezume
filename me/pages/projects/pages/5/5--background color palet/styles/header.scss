@@ -1,0 +1,52 @@
+.color-palet {
+  border : {
+    radius: 1rem;
+  }
+  background: {
+    color: white;
+  }
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  display: flex;
+  flex : {
+    direction: row;
+  }
+  #palet-1,
+  #palet-2,
+  #palet-3,
+  #palet-4,
+  #palet-5 {
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    border : {
+      radius: 50%;
+    }
+  }
+}
+#palet-1 {
+  background: {
+    color: red;
+  }
+}
+#palet-2 {
+  background: {
+    color: magenta;
+  }
+}
+#palet-3 {
+  background: {
+    color: teal;
+  }
+}
+#palet-4 {
+  background: {
+    color: pink;
+  }
+}
+#palet-5 {
+  background: {
+    color: blueviolet;
+  }
+}

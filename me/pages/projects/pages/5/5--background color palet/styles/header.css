@@ -1,0 +1,46 @@
+.color-palet {
+  border-radius: 1rem;
+  background-color: white;
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.color-palet #palet-1,
+.color-palet #palet-2,
+.color-palet #palet-3,
+.color-palet #palet-4,
+.color-palet #palet-5 {
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+#palet-1 {
+  background-color: red;
+}
+
+#palet-2 {
+  background-color: magenta;
+}
+
+#palet-3 {
+  background-color: teal;
+}
+
+#palet-4 {
+  background-color: pink;
+}
+
+#palet-5 {
+  background-color: blueviolet;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+}
+
+@font-face {
+  font-family: b-naz;
+  src: url("../fonts/BNazanin.ttf") format("ttf");
+  src: url("../fonts/BNazanin.woff") format("woff");
+}
+
+body {
+  font-family: b-naz;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p {
+  text-align: center;
+}
+/*# sourceMappingURL=shared.css.map */

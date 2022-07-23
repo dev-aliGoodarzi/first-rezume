@@ -1,0 +1,9 @@
+main p {
+  padding-left: 1rem;
+  padding-top: 1vh;
+}
+
+main p:first-child {
+  padding-top: 7vh;
+}
+/*# sourceMappingURL=main.css.map */

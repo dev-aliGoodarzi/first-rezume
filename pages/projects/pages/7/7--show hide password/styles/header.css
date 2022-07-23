@@ -1,0 +1,41 @@
+header {
+  position: relative;
+}
+
+header #top-nav {
+  position: fixed;
+  top: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  width: 90%;
+  border: 2px solid black;
+  height: 10vh;
+  margin-left: 5%;
+  background-image: linear-gradient(-45deg, blue, magenta, blueviolet 30%);
+}
+
+header #top-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 6vh;
+}
+
+header #top-nav a img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/*# sourceMappingURL=header.css.map */

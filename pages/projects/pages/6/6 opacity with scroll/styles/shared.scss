@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+}
+@font-face {
+  font-family: b-naz;
+  src: url("../fonts/BNazanin.ttf") format("ttf");
+  src: url("../fonts/BNazanin.woff") format("woff");
+}
+body {
+  font : {
+    family: b-naz;
+  }
+  display: flex;
+  flex : {
+    direction: column;
+  }
+  justify-content: center;
+  align-items: center;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    text : {
+      align: center;
+    }
+  }
+}
